@@ -1,0 +1,40 @@
+main {
+
+}
+section {
+
+}
+
+.verticalLine {
+  border-left: thick solid #000000;
+}
+
+/* flexbox css */
+
+.group {
+display: flex;
+flex-direction: column;
+margin-bottom: 100px;
+}
+.group img {
+  width: 100%;
+  padding: 
+}
+.item {
+flex: 1;
+margin: 10px
+}
+.item-double {
+  flex: 2
+}
+
+/* This is for large screens */
+@media all and (min-width: 800px) {
+  section {
+    padding: 0 10%;
+  }
+
+  .group {
+    flex-direction: row;
+  }
+}
